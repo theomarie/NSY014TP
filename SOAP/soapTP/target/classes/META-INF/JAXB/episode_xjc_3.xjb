@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.3.2 
+Voir <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
+Généré le : 2021.07.06 à 10:48:27 PM CEST 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://www.supavenir.fr/springsoap/gen">
+    <schemaBindings map="false">
+      <package name="fr.supavenir.springsoap.gen"/>
+    </schemaBindings>
+    <bindings scd="tns:getPersonRequest">
+      <class ref="fr.supavenir.springsoap.gen.GetPersonRequest"/>
+    </bindings>
+    <bindings scd="tns:getPersonResponse">
+      <class ref="fr.supavenir.springsoap.gen.GetPersonResponse"/>
+    </bindings>
+    <bindings scd="~tns:person">
+      <class ref="fr.supavenir.springsoap.gen.Person"/>
+    </bindings>
+  </bindings>
+</bindings>
+

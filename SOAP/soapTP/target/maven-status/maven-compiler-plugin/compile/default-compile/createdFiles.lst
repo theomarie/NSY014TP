@@ -1,0 +1,11 @@
+fr/supavenir/springsoap/PersonEndpoint.class
+fr/supavenir/springsoap/gen/ObjectFactory.class
+fr/supavenir/springsoap/gen/Person.class
+fr/supavenir/springsoap/gen/GetPersonResponse.class
+fr/supavenir/springsoap/PersonRepository.class
+fr/supavenir/springsoap/client/PersonClientConfig.class
+fr/supavenir/springsoap/client/PersonClient.class
+fr/supavenir/springsoap/Application.class
+fr/supavenir/springsoap/gen/GetPersonRequest.class
+fr/supavenir/springsoap/WebServiceConfig.class
+fr/supavenir/springsoap/gen/package-info.class

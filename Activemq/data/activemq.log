@@ -1,0 +1,181 @@
+2021-07-06 19:23:00,588 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@35cabb2a: startup date [Tue Jul 06 19:23:00 CEST 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2021-07-06 19:23:01,230 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Soldi\Desktop\apache-activemq-5.16.2-bin\apache-activemq-5.16.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2021-07-06 19:23:01,386 | INFO  | PListStore:[C:\Users\Soldi\Desktop\apache-activemq-5.16.2-bin\apache-activemq-5.16.2\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2021-07-06 19:23:01,524 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:DESKTOP-BVDPDPA-53239-1625592181395-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2021-07-06 19:23:01,544 | INFO  | Listening for connections at: tcp://DESKTOP-BVDPDPA:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-07-06 19:23:01,546 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2021-07-06 19:23:01,549 | INFO  | Listening for connections at: amqp://DESKTOP-BVDPDPA:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-07-06 19:23:01,551 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2021-07-06 19:23:01,555 | INFO  | Listening for connections at: stomp://DESKTOP-BVDPDPA:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-07-06 19:23:01,557 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2021-07-06 19:23:01,561 | INFO  | Listening for connections at: mqtt://DESKTOP-BVDPDPA:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-07-06 19:23:01,562 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2021-07-06 19:23:01,569 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-07-06 19:23:01,614 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-07-06 19:23:01,724 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@60dd3c23{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2021-07-06 19:23:01,787 | INFO  | Listening for connections at ws://DESKTOP-BVDPDPA:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2021-07-06 19:23:01,789 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2021-07-06 19:23:01,791 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:DESKTOP-BVDPDPA-53239-1625592181395-0:1) started | org.apache.activemq.broker.BrokerService | main
+2021-07-06 19:23:01,791 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2021-07-06 19:23:01,794 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\Soldi\Desktop\apache-activemq-5.16.2-bin\apache-activemq-5.16.2\bin\..\data\kahadb only has 74241 mb of usable space. - resetting to maximum available disk space: 74241 mb | org.apache.activemq.broker.BrokerService | main
+2021-07-06 19:23:02,373 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-07-06 19:23:02,374 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-07-06 20:54:27,179 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:DESKTOP-BVDPDPA-53239-1625592181395-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-20
+2021-07-06 20:54:27,181 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-20
+2021-07-06 20:54:27,182 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-20
+2021-07-06 20:54:27,183 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-20
+2021-07-06 20:54:27,184 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-20
+2021-07-06 20:54:27,189 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-20
+2021-07-06 20:54:27,192 | INFO  | PListStore:[C:\Users\Soldi\Desktop\apache-activemq-5.16.2-bin\apache-activemq-5.16.2\bin\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-20
+2021-07-06 20:54:27,193 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-20
+2021-07-06 20:54:27,194 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-20
+2021-07-06 20:54:27,196 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-20
+2021-07-06 20:54:27,205 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:DESKTOP-BVDPDPA-53239-1625592181395-0:1) uptime 1 hour 31 minutes | org.apache.activemq.broker.BrokerService | Thread-20
+2021-07-06 20:54:27,206 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:DESKTOP-BVDPDPA-53239-1625592181395-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-20
+2021-07-06 20:54:27,207 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@35cabb2a: startup date [Tue Jul 06 19:23:00 CEST 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-20
+2021-07-06 20:54:53,235 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@478190fc: startup date [Tue Jul 06 20:54:53 CEST 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2021-07-06 20:54:53,862 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Soldi\Desktop\apache-activemq-5.16.2-bin\apache-activemq-5.16.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2021-07-06 20:54:53,898 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2021-07-06 20:54:53,918 | INFO  | PListStore:[C:\Users\Soldi\Desktop\apache-activemq-5.16.2-bin\apache-activemq-5.16.2\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2021-07-06 20:54:54,057 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:DESKTOP-BVDPDPA-59513-1625597693926-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2021-07-06 20:54:54,102 | INFO  | Listening for connections at: tcp://DESKTOP-BVDPDPA:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-07-06 20:54:54,104 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2021-07-06 20:54:54,107 | INFO  | Listening for connections at: amqp://DESKTOP-BVDPDPA:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-07-06 20:54:54,109 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2021-07-06 20:54:54,112 | INFO  | Listening for connections at: stomp://DESKTOP-BVDPDPA:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-07-06 20:54:54,113 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2021-07-06 20:54:54,116 | INFO  | Listening for connections at: mqtt://DESKTOP-BVDPDPA:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-07-06 20:54:54,118 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2021-07-06 20:54:54,123 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-07-06 20:54:54,176 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-07-06 20:54:54,277 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@7ad54c55{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2021-07-06 20:54:54,334 | INFO  | Listening for connections at ws://DESKTOP-BVDPDPA:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2021-07-06 20:54:54,335 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2021-07-06 20:54:54,336 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:DESKTOP-BVDPDPA-59513-1625597693926-0:1) started | org.apache.activemq.broker.BrokerService | main
+2021-07-06 20:54:54,337 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2021-07-06 20:54:54,339 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\Soldi\Desktop\apache-activemq-5.16.2-bin\apache-activemq-5.16.2\bin\..\data\kahadb only has 74237 mb of usable space. - resetting to maximum available disk space: 74237 mb | org.apache.activemq.broker.BrokerService | main
+2021-07-06 20:54:54,900 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-07-06 20:54:54,901 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-07-06 21:26:37,583 | INFO  | Connector vm://localhost started | org.apache.activemq.broker.TransportConnector | qtp1257090913-46
+2021-07-06 21:36:20,551 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:DESKTOP-BVDPDPA-59513-1625597693926-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-21
+2021-07-06 21:36:20,553 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-21
+2021-07-06 21:36:20,555 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-21
+2021-07-06 21:36:20,555 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-21
+2021-07-06 21:36:20,556 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-21
+2021-07-06 21:36:20,562 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-21
+2021-07-06 21:36:20,564 | INFO  | Connector vm://localhost stopped | org.apache.activemq.broker.TransportConnector | Thread-21
+2021-07-06 21:36:20,572 | INFO  | PListStore:[C:\Users\Soldi\Desktop\apache-activemq-5.16.2-bin\apache-activemq-5.16.2\bin\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-21
+2021-07-06 21:36:20,572 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-21
+2021-07-06 21:36:20,572 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-21
+2021-07-06 21:36:20,574 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-21
+2021-07-06 21:36:20,582 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:DESKTOP-BVDPDPA-59513-1625597693926-0:1) uptime 41 minutes | org.apache.activemq.broker.BrokerService | Thread-21
+2021-07-06 21:36:20,583 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:DESKTOP-BVDPDPA-59513-1625597693926-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-21
+2021-07-06 21:36:20,584 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@478190fc: startup date [Tue Jul 06 20:54:53 CEST 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-21
+2021-07-06 21:40:54,135 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@478190fc: startup date [Tue Jul 06 21:40:54 CEST 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2021-07-06 21:40:54,796 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Soldi\Desktop\TP_NSY014_Leroux_Alexis\apache-activemq\apache-activemq-5.16.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2021-07-06 21:40:54,838 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2021-07-06 21:40:54,861 | INFO  | PListStore:[C:\Users\Soldi\Desktop\TP_NSY014_Leroux_Alexis\apache-activemq\apache-activemq-5.16.2\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2021-07-06 21:40:54,992 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:DESKTOP-BVDPDPA-52291-1625600454871-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2021-07-06 21:40:55,039 | INFO  | Listening for connections at: tcp://DESKTOP-BVDPDPA:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-07-06 21:40:55,041 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2021-07-06 21:40:55,046 | INFO  | Listening for connections at: amqp://DESKTOP-BVDPDPA:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-07-06 21:40:55,047 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2021-07-06 21:40:55,053 | INFO  | Listening for connections at: stomp://DESKTOP-BVDPDPA:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-07-06 21:40:55,055 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2021-07-06 21:40:55,060 | INFO  | Listening for connections at: mqtt://DESKTOP-BVDPDPA:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-07-06 21:40:55,061 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2021-07-06 21:40:55,074 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-07-06 21:40:55,134 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-07-06 21:40:55,243 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@1a3e5f23{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2021-07-06 21:40:55,320 | INFO  | Listening for connections at ws://DESKTOP-BVDPDPA:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2021-07-06 21:40:55,323 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2021-07-06 21:40:55,323 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:DESKTOP-BVDPDPA-52291-1625600454871-0:1) started | org.apache.activemq.broker.BrokerService | main
+2021-07-06 21:40:55,324 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2021-07-06 21:40:55,327 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\Soldi\Desktop\TP_NSY014_Leroux_Alexis\apache-activemq\apache-activemq-5.16.2\bin\..\data\kahadb only has 73783 mb of usable space. - resetting to maximum available disk space: 73783 mb | org.apache.activemq.broker.BrokerService | main
+2021-07-06 21:40:55,958 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-07-06 21:40:55,959 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-07-06 21:41:40,349 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:DESKTOP-BVDPDPA-52291-1625600454871-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2021-07-06 21:41:40,351 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-07-06 21:41:40,352 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-07-06 21:41:40,353 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-07-06 21:41:40,354 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-07-06 21:41:40,358 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-07-06 21:41:40,360 | INFO  | PListStore:[C:\Users\Soldi\Desktop\TP_NSY014_Leroux_Alexis\apache-activemq\apache-activemq-5.16.2\bin\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2021-07-06 21:41:40,361 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2021-07-06 21:41:40,362 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2021-07-06 21:41:40,362 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2021-07-06 21:41:40,380 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:DESKTOP-BVDPDPA-52291-1625600454871-0:1) uptime 45.596 seconds | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2021-07-06 21:41:40,381 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:DESKTOP-BVDPDPA-52291-1625600454871-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2021-07-06 21:41:40,381 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@478190fc: startup date [Tue Jul 06 21:40:54 CEST 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook
+2021-07-06 21:50:36,968 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@478190fc: startup date [Tue Jul 06 21:50:36 CEST 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2021-07-06 21:50:37,616 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Soldi\Desktop\TP_NSY014_Leroux_Alexis\apache-activemq\apache-activemq-5.16.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2021-07-06 21:50:37,647 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2021-07-06 21:50:37,670 | INFO  | PListStore:[C:\Users\Soldi\Desktop\TP_NSY014_Leroux_Alexis\apache-activemq\apache-activemq-5.16.2\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2021-07-06 21:50:37,816 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:DESKTOP-BVDPDPA-60434-1625601037685-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2021-07-06 21:50:37,849 | INFO  | Listening for connections at: tcp://DESKTOP-BVDPDPA:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-07-06 21:50:37,865 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2021-07-06 21:50:37,870 | INFO  | Listening for connections at: amqp://DESKTOP-BVDPDPA:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-07-06 21:50:37,870 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2021-07-06 21:50:37,870 | INFO  | Listening for connections at: stomp://DESKTOP-BVDPDPA:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-07-06 21:50:37,870 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2021-07-06 21:50:37,870 | INFO  | Listening for connections at: mqtt://DESKTOP-BVDPDPA:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-07-06 21:50:37,870 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2021-07-06 21:50:37,885 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-07-06 21:50:37,932 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-07-06 21:50:38,055 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@1a3e5f23{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2021-07-06 21:50:38,118 | INFO  | Listening for connections at ws://DESKTOP-BVDPDPA:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2021-07-06 21:50:38,118 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2021-07-06 21:50:38,118 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:DESKTOP-BVDPDPA-60434-1625601037685-0:1) started | org.apache.activemq.broker.BrokerService | main
+2021-07-06 21:50:38,118 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2021-07-06 21:50:38,118 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\Soldi\Desktop\TP_NSY014_Leroux_Alexis\apache-activemq\apache-activemq-5.16.2\bin\..\data\kahadb only has 73723 mb of usable space. - resetting to maximum available disk space: 73723 mb | org.apache.activemq.broker.BrokerService | main
+2021-07-06 21:50:38,749 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-07-06 21:50:38,749 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-07-06 21:51:30,471 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:DESKTOP-BVDPDPA-60434-1625601037685-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2021-07-06 21:51:30,471 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-07-06 21:51:30,471 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-07-06 21:51:30,471 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-07-06 21:51:30,471 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-07-06 21:51:30,489 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-07-06 21:51:30,489 | INFO  | PListStore:[C:\Users\Soldi\Desktop\TP_NSY014_Leroux_Alexis\apache-activemq\apache-activemq-5.16.2\bin\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2021-07-06 21:51:30,489 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2021-07-06 21:51:30,489 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2021-07-06 21:51:30,489 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2021-07-06 21:51:30,509 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:DESKTOP-BVDPDPA-60434-1625601037685-0:1) uptime 52.904 seconds | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2021-07-06 21:51:30,509 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:DESKTOP-BVDPDPA-60434-1625601037685-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2021-07-06 21:51:30,509 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@478190fc: startup date [Tue Jul 06 21:50:36 CEST 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook
+2021-07-07 18:44:35,790 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@478190fc: startup date [Wed Jul 07 18:44:35 CEST 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2021-07-07 18:44:36,467 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Soldi\Desktop\TP_NSY014-main\MOM - Alexis\apache-activemq\apache-activemq-5.16.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2021-07-07 18:44:36,500 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2021-07-07 18:44:36,520 | INFO  | PListStore:[C:\Users\Soldi\Desktop\TP_NSY014-main\MOM - Alexis\apache-activemq\apache-activemq-5.16.2\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2021-07-07 18:44:36,656 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:DESKTOP-BVDPDPA-64146-1625676276527-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2021-07-07 18:44:36,701 | INFO  | Listening for connections at: tcp://DESKTOP-BVDPDPA:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-07-07 18:44:36,701 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2021-07-07 18:44:36,705 | INFO  | Listening for connections at: amqp://DESKTOP-BVDPDPA:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-07-07 18:44:36,705 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2021-07-07 18:44:36,708 | INFO  | Listening for connections at: stomp://DESKTOP-BVDPDPA:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-07-07 18:44:36,709 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2021-07-07 18:44:36,714 | INFO  | Listening for connections at: mqtt://DESKTOP-BVDPDPA:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-07-07 18:44:36,715 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2021-07-07 18:44:36,718 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-07-07 18:44:36,767 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-07-07 18:44:36,875 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@3350ebdd{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2021-07-07 18:44:36,932 | INFO  | Listening for connections at ws://DESKTOP-BVDPDPA:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2021-07-07 18:44:36,933 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2021-07-07 18:44:36,934 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:DESKTOP-BVDPDPA-64146-1625676276527-0:1) started | org.apache.activemq.broker.BrokerService | main
+2021-07-07 18:44:36,934 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2021-07-07 18:44:36,937 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\Soldi\Desktop\TP_NSY014-main\MOM - Alexis\apache-activemq\apache-activemq-5.16.2\bin\..\data\kahadb only has 75649 mb of usable space. - resetting to maximum available disk space: 75649 mb | org.apache.activemq.broker.BrokerService | main
+2021-07-07 18:44:37,541 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-07-07 18:44:37,541 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-07-07 19:05:09,134 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:DESKTOP-BVDPDPA-64146-1625676276527-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2021-07-07 19:05:09,136 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-07-07 19:05:09,137 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-07-07 19:05:09,138 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-07-07 19:05:09,139 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-07-07 19:05:09,143 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-07-07 19:05:09,145 | INFO  | PListStore:[C:\Users\Soldi\Desktop\TP_NSY014-main\MOM - Alexis\apache-activemq\apache-activemq-5.16.2\bin\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2021-07-07 19:05:09,146 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2021-07-07 19:05:09,146 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2021-07-07 19:05:09,147 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2021-07-07 19:05:09,161 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:DESKTOP-BVDPDPA-64146-1625676276527-0:1) uptime 20 minutes | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2021-07-07 19:05:09,162 | INFO  | Apache ActiveMQ 5.16.2 (localhost, ID:DESKTOP-BVDPDPA-64146-1625676276527-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2021-07-07 19:05:09,162 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@478190fc: startup date [Wed Jul 07 18:44:35 CEST 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook
